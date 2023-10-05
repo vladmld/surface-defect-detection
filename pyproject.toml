@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "surface-defect-detection"
+version = "0.1.0"
+description = "Basic project that detects defects on surfaces."
+authors = ["vladmld <vlad.moldoveanu@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
