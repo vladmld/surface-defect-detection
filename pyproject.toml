@@ -6,8 +6,14 @@ authors = ["vladmld <vlad.moldoveanu@protonmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "<=3.10.12,>=3.9"
+opencv-python = "^4.8.1.78"
+numpy = "^1.26.0"
+tqdm = "^4.66.1"
 
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.5.1"
 
 [build-system]
 requires = ["poetry-core"]
